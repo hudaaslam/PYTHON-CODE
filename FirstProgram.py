@@ -50,8 +50,8 @@ str1 = "this is Huda Aslam. "
 count = len(str1)
 # print(count)
 
-print(str1[2]) # count characters
-print(str1.capitalize()) # capitalize Letter
+# print(str1[2]) # count characters
+# print(str1.capitalize()) # capitalize Letter
 
 # str2 = "Starting work on PYTHON. Looking forward to see more things!"
 # str3 = str1 + str2
@@ -97,9 +97,42 @@ age = 14
 # else:
 #     print("None is Greater")
 
-a = int(input("Enter the Number: "))
+# a = int(input("Enter the Number: "))
 
-if (a % 7 == 0):
-    print ("Number is Multiplied By 7")
-else:
-    print ("Number is not Multiplied By 7")
+# if (a % 7 == 0):
+#     print ("Number is Multiplied By 7")
+# else:
+#     print ("Number is not Multiplied By 7")
+
+marks = [10 , 12 , 15 , 17]
+# print(type(marks))
+# print(marks[0])
+
+data = ["Huda" , 100]
+# print(data[0])
+
+data[0] = "Urooba"
+# print(data)
+
+movies = []
+# movies.append(input("Enter First Movies: "))
+# mov = input("Enter Second Movie: ")
+# movies.append(mov)
+# mov = input("Enter Third Movie: ")
+# movies.append(mov)
+
+# print(movies)
+
+list1 = [1,2,1]
+list2 = [1,2,3]
+
+copyList1 = list1.copy()
+copyList1.reverse()
+
+# if copyList1 == list1:
+#     print("List is Palidrome")
+# else:
+#     print("List is not Palidrome")
+
+grade = ["A","B","C","A","A"]
+print(grade.count("A"))
